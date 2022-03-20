@@ -1,0 +1,53 @@
+#profile-container {
+    width: 325px;
+}
+
+#top-section {
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    border-radius: 20px;
+    height: 150px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+#profile-picture {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+}
+
+#text-container, #profile-picture-container {
+    margin: 10px;
+}
+
+#time-container {
+    position: relative;
+    top: -13px;
+    height: 70px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+#time-container, .time {
+    background-color: hsl(235, 46%, 20%);
+}
+
+.time {
+    border: none;
+}
+
+#name {
+    font-size: 1.6em;
+}
+
+#subtitle{
+    font-size: 0.8em;
+}
